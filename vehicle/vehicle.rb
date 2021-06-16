@@ -44,7 +44,7 @@ c = PassengerCar.new
 p.open_door
 p.close_door
 
-6.times {|_v| c.open_door}
+6.times {c.open_door}
 
 puts p.open_doors_count
 puts c.open_doors_count
