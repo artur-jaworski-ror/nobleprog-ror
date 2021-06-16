@@ -1,4 +1,4 @@
-<p>Aktyalny czas: <%= @actual_date %></p>
+<p>Aktyalny czas: <%= format_date(@actual_date) %></p>
 
 <%if Time.now.hour > 21 && Time.now.hour < 5 %>
     <img src="https://addons-media.operacdn.com/media/CACHE/images/themes/35/95435/1.0-rev1/images/fcd1950c-9600-4667-8ad0-68f57eaa9564/a2ecd9a136ae5a3450f38fe4f17a931b.jpg" width="400">
