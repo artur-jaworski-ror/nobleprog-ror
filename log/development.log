@@ -81,3 +81,463 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 15ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2446)
 
 
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:38:47 +0000
+  
+SyntaxError (/home/nobleprog/nobleprog-ror/app/controllers/static_pages_controller.rb:10: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/static_pages_controller.rb:10: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:10: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:10: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/privacy/pl" for 127.0.0.1 at 2021-06-16 12:38:54 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy/pl"):
+  
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:40:03 +0000
+  
+SyntaxError (/home/nobleprog/nobleprog-ror/app/controllers/static_pages_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/static_pages_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:12: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/privacy/" for 127.0.0.1 at 2021-06-16 12:40:58 +0000
+  
+ActionController::RoutingError (uninitialized constant StaticPagesController):
+  
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:42:18 +0000
+  
+SyntaxError (/home/nobleprog/nobleprog-ror/app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:43:32 +0000
+  
+ActionController::RoutingError (uninitialized constant StaticPagesController):
+  
+Started GET "/privacy/" for 127.0.0.1 at 2021-06-16 12:43:37 +0000
+  
+ActionController::RoutingError (uninitialized constant StaticPagesController):
+  
+Started GET "/privacy/pl" for 127.0.0.1 at 2021-06-16 12:43:41 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy/pl"):
+  
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:44:28 +0000
+  
+SyntaxError (/home/nobleprog/nobleprog-ror/app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/static_pages_controller.rb:13: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:44:59 +0000
+  
+ActionController::RoutingError (uninitialized constant StaticPagesController):
+  
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:45:20 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.3ms | Allocations: 103)
+[Webpacker] Compiling...
+Started GET "/privacy/" for 127.0.0.1 at 2021-06-16 12:45:23 +0000
+[Webpacker] Compiled all packs in /home/nobleprog/nobleprog-ror/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: e332c6419728fac579d5
+Version: webpack 4.46.0
+Time: 1575ms
+Built at: 06/16/2021 12:45:24 PM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-f826770d917d8a37c1d8.js    125 KiB  application  [emitted] [immutable]  application
+js/application-f826770d917d8a37c1d8.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-f826770d917d8a37c1d8.js js/application-f826770d917d8a37c1d8.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 3943.6ms | Allocations: 17847)
+Completed 200 OK in 3946ms (Views: 3945.5ms | Allocations: 18995)
+
+
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 3496)
+Completed 200 OK in 9ms (Views: 7.4ms | Allocations: 3813)
+
+
+Started GET "/privacy/pl" for 127.0.0.1 at 2021-06-16 12:45:31 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy/pl"):
+  
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:45:45 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3472)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 3841)
+
+
+Started GET "/privacy/'pl'" for 127.0.0.1 at 2021-06-16 12:45:52 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy/'pl'"):
+  
+Started GET "/privacy/" for 127.0.0.1 at 2021-06-16 12:45:56 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3470)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 3839)
+
+
+Started GET "/privacy/lang=pl" for 127.0.0.1 at 2021-06-16 12:46:16 +0000
+  
+ActionController::RoutingError (No route matches [GET] "/privacy/lang=pl"):
+  
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 12:46:27 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_pl.html.erb within layouts/application
+  Rendered static_pages/privacy_pl.html.erb within layouts/application (Duration: 0.3ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3541)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 4032)
+
+
+Started GET "/privacy/" for 127.0.0.1 at 2021-06-16 12:46:30 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.3ms | Allocations: 3472)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 3790)
+
+
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 12:49:40 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_pl.html.erb within layouts/application
+  Rendered static_pages/privacy_pl.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3713)
+Completed 200 OK in 8ms (Views: 7.7ms | Allocations: 4786)
+
+
+Started GET "/privacy?lang=es" for 127.0.0.1 at 2021-06-16 12:49:44 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"es"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_es.html.erb within layouts/application
+  Rendered static_pages/privacy_es.html.erb within layouts/application (Duration: 0.5ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 3534)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 4027)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:49:48 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.4ms | Allocations: 100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3529)
+Completed 200 OK in 7ms (Views: 6.2ms | Allocations: 4051)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:51:30 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3472)
+Completed 200 OK in 6ms (Views: 5.8ms | Allocations: 3790)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:54:59 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 0.8ms | Allocations: 1096)
+  Rendered layout layouts/application.html.erb (Duration: 1.0ms | Allocations: 1161)
+Completed 500 Internal Server Error in 3ms (Allocations: 2218)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check Privacy
+
+<% Faker:Lorem.paragraphs(number: 6).each do |par| %>
+    <%= par end %>
+
+):
+1:    Privacy
+2:    
+3:    <% Faker:Lorem.paragraphs(number: 6).each do |par| %>
+4:        <%= par end %>
+  
+app/views/static_pages/privacy.html.erb:4: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:7: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:4: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:7: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:4: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:7: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:4: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:7: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:4: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:7: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:4: syntax error, unexpected `end', expecting ')'
+app/views/static_pages/privacy.html.erb:7: syntax error, unexpected `end', expecting ')'
+app/controllers/static_pages_controller.rb:11:in `privacy'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:55:57 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1653)
+  Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 1717)
+Completed 500 Internal Server Error in 4ms (Allocations: 2773)
+
+
+  
+ActionView::Template::Error (undefined method `paragraphs' for :Lorem:Symbol):
+    1: Privacy
+    2: 
+    3: <% Faker:Lorem.paragraphs(number: 6).each do |par| %>
+    4:     <%= par %>
+    5:     <% end %>
+  
+app/views/static_pages/privacy.html.erb:3
+app/controllers/static_pages_controller.rb:11:in `privacy'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:57:40 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1650)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1714)
+Completed 500 Internal Server Error in 5ms (Allocations: 2769)
+
+
+  
+ActionView::Template::Error (undefined method `paragraphs' for :Lorem:Symbol):
+    1: Privacy
+    2: 
+    3: <% Faker:Lorem.paragraphs(number: 6).each do |par| %>
+    4:     <p><%= par %></p>
+    5: <% end %>
+  
+app/views/static_pages/privacy.html.erb:3
+app/controllers/static_pages_controller.rb:11:in `privacy'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 12:58:23 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1475)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1539)
+Completed 500 Internal Server Error in 4ms (Allocations: 2594)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007f5a291e8e78>::Faker):
+    1: Privacy
+    2: 
+    3: <% Faker::Lorem.paragraphs(number: 6).each do |par| %>
+    4:     <p><%= par %></p>
+    5: <% end %>
+  
+app/views/static_pages/privacy.html.erb:3
+app/controllers/static_pages_controller.rb:11:in `privacy'
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 13:00:06 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1479)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1543)
+Completed 500 Internal Server Error in 4ms (Allocations: 2598)
+
+
+  
+ActionView::Template::Error (uninitialized constant #<Class:0x00007f5a2041aa88>::Faker):
+    1: Privacy
+    2: 
+    3: <% Faker::Lorem.paragraphs(number: 6).each do |par| %>
+    4:     <p>
+    5:         <%= par %>
+    6:     </p>
+  
+app/views/static_pages/privacy.html.erb:3
+app/controllers/static_pages_controller.rb:11:in `privacy'
+Started GET "/" for 127.0.0.1 at 2021-06-16 13:00:23 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /var/lib/gems/2.7.0/gems/railties-6.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 6.1ms | Allocations: 332)
+Completed 200 OK in 15ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2526)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-16 13:00:27 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 1288.7ms | Allocations: 1018701)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 1298.3ms | Allocations: 1024088)
+Completed 200 OK in 1310ms (Views: 1306.6ms | ActiveRecord: 0.0ms | Allocations: 1025232)
+
+
+Started GET "/privacy?lang=pl" for 127.0.0.1 at 2021-06-16 13:00:39 +0000
+Processing by StaticPagesController#privacy as HTML
+  Parameters: {"lang"=>"pl"}
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy_pl.html.erb within layouts/application
+  Rendered static_pages/privacy_pl.html.erb within layouts/application (Duration: 0.3ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3532)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 4030)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:05:09 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.4ms | Allocations: 117)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 3712)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 4800)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:09:46 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 3783)
+Completed 200 OK in 8ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 4866)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:10:45 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 165)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3781)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 4858)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:11:10 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.8ms | Allocations: 165)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 3781)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 4858)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:11:28 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 164)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 3781)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 4858)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:12:48 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 8.6ms | Allocations: 4357)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4421)
+Completed 500 Internal Server Error in 12ms (Allocations: 5482)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `actual_date' for #<ActionView::Base:0x000000000098a8>):
+    1: <p>Aktyalny czas: <%= actual_date %></p>
+    2: 
+    3: <%if Time.now.hour > 21 && Time.now.hour < 5 %>
+    4:     <img src="https://addons-media.operacdn.com/media/CACHE/images/themes/35/95435/1.0-rev1/images/fcd1950c-9600-4667-8ad0-68f57eaa9564/a2ecd9a136ae5a3450f38fe4f17a931b.jpg" width="400">
+  
+app/views/static_pages/current_time.html.erb:1
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:13:23 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 7.9ms | Allocations: 3981)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4045)
+Completed 500 Internal Server Error in 10ms (Allocations: 4596)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `actual_date' for #<ActionView::Base:0x0000000000a8c0>
+Did you mean?  @actual_date):
+    1: <p>Aktyalny czas: <%= actual_date %></p>
+    2: 
+    3: <%if Time.now.hour > 21 && Time.now.hour < 5 %>
+    4:     <img src="https://addons-media.operacdn.com/media/CACHE/images/themes/35/95435/1.0-rev1/images/fcd1950c-9600-4667-8ad0-68f57eaa9564/a2ecd9a136ae5a3450f38fe4f17a931b.jpg" width="400">
+  
+app/views/static_pages/current_time.html.erb:1
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:13:24 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3995)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 4059)
+Completed 500 Internal Server Error in 11ms (Allocations: 4408)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `actual_date' for #<ActionView::Base:0x0000000000ac08>
+Did you mean?  @actual_date):
+    1: <p>Aktyalny czas: <%= actual_date %></p>
+    2: 
+    3: <%if Time.now.hour > 21 && Time.now.hour < 5 %>
+    4:     <img src="https://addons-media.operacdn.com/media/CACHE/images/themes/35/95435/1.0-rev1/images/fcd1950c-9600-4667-8ad0-68f57eaa9564/a2ecd9a136ae5a3450f38fe4f17a931b.jpg" width="400">
+  
+app/views/static_pages/current_time.html.erb:1
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-16 13:13:37 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 161)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 3916)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 5010)
+
+
