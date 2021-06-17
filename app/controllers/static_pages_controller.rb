@@ -16,4 +16,6 @@ class StaticPagesController < ApplicationController
   def current_time
     @actual_date = DateTime.now
   end
+
+  def home; end
 end

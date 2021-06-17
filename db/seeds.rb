@@ -9,7 +9,7 @@
 
 
 25.times do
-    Post.create! title: Faker::Lorem.words(number: 5).join, content: Faker::Lorem.paragraphs(number: 5).join
+    Post.create! title: Faker::Lorem.words(number: 5).join, content: Faker::Lorem.paragraphs(number: 5).join, user: User.all.sample
 end
 
 25.times do

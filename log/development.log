@@ -1728,3 +1728,1236 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.8ms | Allocations: 5212)
 
 
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "quoautdelenitiabfacere"], ["content", "Quis repellat dolores. Necessitatibus error qui. Dolor quasi laboriosam.Voluptas non dolores. Sint eligendi quaerat. Dignissimos aperiam quo.Et aut quod. Ipsum sed aliquid. Debitis quidem ut.Ab amet fugit. Animi ipsum dolor. Sed veniam placeat.Eum assumenda quos. Incidunt ducimus perspiciatis. Exercitationem quaerat dolorem."], ["user_id", 91], ["created_at", "2021-06-17 09:51:13.730321"], ["updated_at", "2021-06-17 09:51:13.730321"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "consequaturoccaecatiaspernatursolutaexpedita"], ["content", "Architecto aut aut. Dolores consequatur optio. Nisi ut impedit.Corporis vel totam. Et labore dolor. Perferendis velit reiciendis.Ratione harum nemo. Odio ut dicta. Quas hic qui.Officia earum est. Aut culpa et. Recusandae et sapiente.Omnis architecto excepturi. Veniam quia sed. Harum corrupti at."], ["user_id", 96], ["created_at", "2021-06-17 09:51:13.738706"], ["updated_at", "2021-06-17 09:51:13.738706"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "autquirationefacilisatque"], ["content", "Eius nobis a. Fugiat sed ut. Recusandae ut veritatis.Molestiae fugiat architecto. Officiis et aut. Alias expedita similique.Et et at. Qui magni quisquam. Vel voluptate quia.Ad beatae aut. Neque et et. Excepturi itaque rerum.Animi quia enim. Sunt atque ut. Dolorem nam molestias."], ["user_id", 92], ["created_at", "2021-06-17 09:51:13.745540"], ["updated_at", "2021-06-17 09:51:13.745540"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "atquealiquammolestiasquiafuga"], ["content", "Laboriosam qui vero. Atque laboriosam rerum. Saepe accusamus molestiae.Ipsam debitis aut. Ut aperiam ipsa. Nihil animi quisquam.Porro corporis ea. Enim omnis sed. Velit id facere.Sit voluptatibus suscipit. In et est. Adipisci quas vitae.Quia sed quia. Corrupti nihil iste. Exercitationem sit optio."], ["user_id", 91], ["created_at", "2021-06-17 09:51:13.752350"], ["updated_at", "2021-06-17 09:51:13.752350"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "eosculpaenimnumquamin"], ["content", "Qui eveniet consequatur. Vel saepe dolor. Eveniet labore sequi.Voluptatem asperiores quas. Asperiores repudiandae tempora. Ex incidunt facere.Omnis itaque voluptates. Quas libero aut. Officiis aliquid temporibus.Ut aut repellendus. Iure aspernatur modi. Repudiandae et recusandae.Excepturi ut esse. Officiis voluptate ipsum. Aut eum molestiae."], ["user_id", 90], ["created_at", "2021-06-17 09:51:13.759039"], ["updated_at", "2021-06-17 09:51:13.759039"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "illoquosperferendiscumquenon"], ["content", "Neque quo illum. Eum incidunt id. Praesentium magni sed.Autem laudantium est. Qui nostrum excepturi. Repudiandae aut saepe.Ducimus qui iusto. Rerum eos dignissimos. Dolor dolore ea.Cum et molestiae. Tenetur repudiandae id. Nostrum quia et.Qui itaque non. Voluptatem ut laborum. Sit quidem fuga."], ["user_id", 84], ["created_at", "2021-06-17 09:51:13.772456"], ["updated_at", "2021-06-17 09:51:13.772456"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "voluptasnobisutmaioresreiciendis"], ["content", "Tempora voluptas illum. Nulla repellendus ut. Tempora repudiandae est.Repellendus suscipit deserunt. Numquam debitis laborum. Alias perspiciatis qui.Aliquam qui debitis. Cum inventore ea. Optio tenetur cumque.Eos maxime voluptatem. Et pariatur autem. Laudantium beatae sunt.Dolore magnam officiis. At quia repudiandae. Aut assumenda et."], ["user_id", 91], ["created_at", "2021-06-17 09:51:13.779639"], ["updated_at", "2021-06-17 09:51:13.779639"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "delenitiundeexpeditadoloreveniet"], ["content", "Voluptatem officiis numquam. Et eveniet nulla. Ex inventore nihil.Quo ea est. Et illo a. Provident odit et.Doloremque labore ut. Vel et quia. A enim debitis.Consectetur et occaecati. Veritatis voluptas aut. Ad nobis ut.Sunt illo dolorem. Cum delectus atque. Qui minima at."], ["user_id", 79], ["created_at", "2021-06-17 09:51:13.786577"], ["updated_at", "2021-06-17 09:51:13.786577"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "voluptatemeadolorumquiain"], ["content", "Est omnis ut. Explicabo et earum. Ipsum a modi.Et maiores molestiae. Magni ea dolor. Eos sit sit.Non qui labore. Dolorem illo beatae. Eius officia corrupti.At dolorem sunt. Itaque atque non. Illo adipisci corporis.Vitae numquam est. Laboriosam inventore quo. Voluptatem doloribus non."], ["user_id", 84], ["created_at", "2021-06-17 09:51:13.793361"], ["updated_at", "2021-06-17 09:51:13.793361"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "autemhicdelectusliberoqui"], ["content", "Sit nesciunt ut. Optio numquam soluta. Aliquam sed velit.Dolor ut aliquid. Consectetur asperiores officiis. Non voluptatem consequatur.Ea et debitis. Ut ea qui. Et vero aut.Est est aut. Rem dolores ex. Sapiente dolor soluta.Cum qui labore. Sit necessitatibus optio. Porro inventore consequatur."], ["user_id", 86], ["created_at", "2021-06-17 09:51:13.806251"], ["updated_at", "2021-06-17 09:51:13.806251"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "consequunturautadipiscipossimusquo"], ["content", "Voluptatem libero natus. Est enim laboriosam. Atque odit voluptas.Perferendis numquam temporibus. Voluptatem explicabo vero. Dicta ullam velit.Aut non ullam. Praesentium et accusamus. Sit sint numquam.Sed consequatur magnam. Enim eaque et. Provident nesciunt fugit.Officia quae quas. Eligendi ea dolorum. Sed vero neque."], ["user_id", 91], ["created_at", "2021-06-17 09:51:13.813829"], ["updated_at", "2021-06-17 09:51:13.813829"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "estremtemporeesseofficia"], ["content", "Laborum odio esse. Et delectus cumque. Voluptatem a et.Et unde ratione. Nisi odit nihil. Suscipit reprehenderit optio.Est accusamus atque. Commodi ut deleniti. Aliquam sed dicta.Qui excepturi sit. Aspernatur aut ut. Eligendi iste laboriosam.Quasi modi sunt. Nihil recusandae voluptatem. Reiciendis dolore maiores."], ["user_id", 89], ["created_at", "2021-06-17 09:51:13.821153"], ["updated_at", "2021-06-17 09:51:13.821153"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "modideseruntducimusnemofugit"], ["content", "Quia animi et. Exercitationem voluptatem sapiente. Placeat vel labore.Voluptatem nisi natus. Optio quia consectetur. Alias et et.Sunt accusamus et. Doloribus excepturi dignissimos. Omnis sunt animi.Quasi illum rerum. Error dolor necessitatibus. Dolorem laboriosam exercitationem.Rerum recusandae perferendis. Quidem et cum. Accusantium recusandae provident."], ["user_id", 98], ["created_at", "2021-06-17 09:51:13.835164"], ["updated_at", "2021-06-17 09:51:13.835164"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "exconsequunturipsaminimamollitia"], ["content", "Veniam ab quae. Porro nobis debitis. Aut possimus rem.Illo natus non. Aut qui incidunt. Quam ipsam cumque.Voluptas officia eum. Autem ducimus eum. Maxime sit repudiandae.Earum minus enim. Id sed nihil. Dignissimos iste iusto.Animi enim explicabo. Autem tempore voluptatem. Perferendis aspernatur qui."], ["user_id", 86], ["created_at", "2021-06-17 09:51:13.842466"], ["updated_at", "2021-06-17 09:51:13.842466"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "assumendanontemporavoluptatemsunt"], ["content", "Vitae corrupti rem. Consectetur tenetur ullam. Facere tempore animi.Odit minima voluptate. Quisquam odio et. Ad optio et.Voluptatem a iste. Voluptas consequatur ex. Repellat veritatis doloremque.Aut ducimus incidunt. Dolor fugiat id. Velit soluta ratione.Minima eius numquam. Laboriosam dicta soluta. Consequuntur cum ut."], ["user_id", 84], ["created_at", "2021-06-17 09:51:13.849767"], ["updated_at", "2021-06-17 09:51:13.849767"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "estcumquequodpariaturconsequuntur"], ["content", "Mollitia cupiditate molestiae. Placeat amet impedit. Illum aliquid veritatis.Et dolorem voluptas. Blanditiis sapiente qui. Delectus perferendis aut.Voluptate quam voluptas. Et vero quas. Eius necessitatibus et.Quasi nulla minus. Repellat laborum id. Odio vel et.Voluptas quisquam soluta. Dolores et aliquid. Aut assumenda corrupti."], ["user_id", 97], ["created_at", "2021-06-17 09:51:13.862900"], ["updated_at", "2021-06-17 09:51:13.862900"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "quoetdictabeataenisi"], ["content", "Ipsa autem exercitationem. Et dolorem est. Assumenda fugit iure.Tenetur reprehenderit illum. Et rerum labore. Sint sit ut.Vel ut minima. Aut officiis suscipit. Aliquam illum et.Iusto quidem alias. Voluptatem debitis temporibus. Aliquam commodi atque.Quia ut eum. Aliquam corporis doloribus. Rerum reprehenderit sit."], ["user_id", 96], ["created_at", "2021-06-17 09:51:13.870411"], ["updated_at", "2021-06-17 09:51:13.870411"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.5ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "doloresexplicaboutoptiout"], ["content", "Eveniet cum possimus. Similique vero unde. Non ipsum aliquam.Libero et hic. Vel maxime unde. Veniam dolor sed.Asperiores pariatur ut. Dolores perferendis quia. Explicabo exercitationem sint.Ut quas magnam. Explicabo ipsum aut. Sit aut dolorum.Ea vitae rerum. Quae id minus. Nobis repellat eius."], ["user_id", 89], ["created_at", "2021-06-17 09:51:13.877515"], ["updated_at", "2021-06-17 09:51:13.877515"]]
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "animiperferendislaboriosameiusmagnam"], ["content", "Ut commodi repellat. Ut consectetur aut. Amet pariatur quidem.Corporis quam assumenda. Voluptas eos delectus. Et natus voluptate.Et expedita quos. Quisquam molestiae adipisci. Placeat corrupti iste.Tenetur cum et. Molestias quasi ut. Eveniet autem exercitationem.Facere culpa id. Illum fuga cum. Minus exercitationem odio."], ["user_id", 76], ["created_at", "2021-06-17 09:51:13.909371"], ["updated_at", "2021-06-17 09:51:13.909371"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "omnisautdebitisquiblanditiis"], ["content", "Corrupti rerum amet. Quo cupiditate nam. Laudantium nulla deserunt.Qui dolorum rerum. Ut nihil fugiat. Enim voluptatem nam.Accusantium maiores suscipit. Quia est quod. Nesciunt a dolorem.Nisi fuga dolorum. Nisi consequatur voluptas. Iusto quod pariatur.Qui et cumque. Temporibus non numquam. Neque dicta animi."], ["user_id", 80], ["created_at", "2021-06-17 09:51:13.916119"], ["updated_at", "2021-06-17 09:51:13.916119"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "natustotamabquosexpedita"], ["content", "Aliquam blanditiis nostrum. Consectetur et officiis. Dolorem est deleniti.Dolor cupiditate in. Dolorem commodi autem. Et doloremque ipsum.Omnis eaque doloremque. Aut exercitationem quisquam. Quo eos saepe.Aperiam ipsam molestiae. Voluptatem perspiciatis consequatur. Labore commodi praesentium.Officia tempore sed. Quisquam est molestiae. Beatae quo dolorum."], ["user_id", 98], ["created_at", "2021-06-17 09:51:13.922887"], ["updated_at", "2021-06-17 09:51:13.922887"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "velundeanimiatmaxime"], ["content", "Ut nulla eius. Perferendis error quo. Quisquam minus recusandae.Voluptatem animi doloremque. Voluptatem quia velit. Voluptatibus consequuntur pariatur.Fugiat fugit aliquid. Id amet fugit. Doloremque atque aut.Beatae exercitationem porro. Iusto praesentium minus. Dolor ex qui.Sapiente eaque ex. Aliquid nostrum laboriosam. Eum vel ipsam."], ["user_id", 76], ["created_at", "2021-06-17 09:51:13.929432"], ["updated_at", "2021-06-17 09:51:13.929432"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "quotenetureosomnisalias"], ["content", "Quo accusamus et. In nihil dolore. Iusto placeat sit.Nihil fugit et. Odio ratione voluptate. Maxime officiis ut.Quos suscipit quia. Recusandae nisi molestias. Vero fugiat quod.Qui et fugit. Aperiam dolores eligendi. Rerum velit aspernatur.Possimus ratione necessitatibus. Nam et maxime. Amet reiciendis qui."], ["user_id", 85], ["created_at", "2021-06-17 09:51:13.935848"], ["updated_at", "2021-06-17 09:51:13.935848"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "blanditiisipsumimpeditducimusdoloremque"], ["content", "Tempora ipsam voluptatem. Deserunt doloribus quisquam. Minus ut laboriosam.Dignissimos non sit. Velit nemo illo. Maiores a dolores.Dolores eligendi molestiae. Ad molestiae suscipit. Doloribus aliquid molestiae.Ullam officia dolor. Sint iste ut. Aut et ullam.Corrupti fugiat facilis. Quasi natus perspiciatis. Quia aliquid dolore."], ["user_id", 98], ["created_at", "2021-06-17 09:51:13.942443"], ["updated_at", "2021-06-17 09:51:13.942443"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "doloribusautinciduntofficiaenim"], ["content", "Voluptatum aut mollitia. Minus molestiae aliquid. Quo id ex.At itaque tempore. Debitis nostrum omnis. Eos reiciendis repellendus.Dolorum quis ut. Aperiam pariatur id. Est doloribus aut.Doloremque aut soluta. Expedita et dolorem. Tempore magnam perferendis.Aliquam qui dicta. Cumque odit earum. Et ut nam."], ["user_id", 92], ["created_at", "2021-06-17 09:51:13.949759"], ["updated_at", "2021-06-17 09:51:13.949759"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Carla Johnston Dicki"], ["email", "jenniffer@cummings.info"], ["created_at", "2021-06-17 09:51:13.954629"], ["updated_at", "2021-06-17 09:51:13.954629"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Sen. Tommie Huels Windler"], ["email", "carl.strosin@homenick.net"], ["created_at", "2021-06-17 09:51:13.959326"], ["updated_at", "2021-06-17 09:51:13.959326"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Demetrius Anderson Fay"], ["email", "randolph@harber-hills.org"], ["created_at", "2021-06-17 09:51:13.963452"], ["updated_at", "2021-06-17 09:51:13.963452"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Farrah Wunsch O'Hara"], ["email", "rory_white@aufderhar.name"], ["created_at", "2021-06-17 09:51:13.967602"], ["updated_at", "2021-06-17 09:51:13.967602"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Dagny Lemke Weber"], ["email", "bessie@ruecker-nader.name"], ["created_at", "2021-06-17 09:51:13.971837"], ["updated_at", "2021-06-17 09:51:13.971837"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Marchelle Braun O'Kon"], ["email", "bernie@howell.io"], ["created_at", "2021-06-17 09:51:13.982455"], ["updated_at", "2021-06-17 09:51:13.982455"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Roland Jenkins Kulas"], ["email", "vicenta.gutkowski@schoen-kirlin.io"], ["created_at", "2021-06-17 09:51:13.986904"], ["updated_at", "2021-06-17 09:51:13.986904"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Ms. Lyndon Orn Ruecker"], ["email", "wendell_schamberger@bayer.co"], ["created_at", "2021-06-17 09:51:13.991245"], ["updated_at", "2021-06-17 09:51:13.991245"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Talisha Dickens Leannon"], ["email", "christeen@hackett.com"], ["created_at", "2021-06-17 09:51:13.995415"], ["updated_at", "2021-06-17 09:51:13.995415"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Giovanni Jacobi West"], ["email", "leeanna.gleichner@champlin.info"], ["created_at", "2021-06-17 09:51:13.999618"], ["updated_at", "2021-06-17 09:51:13.999618"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Mrs. Leonel Watsica Padberg"], ["email", "fredda_torphy@jones-okon.org"], ["created_at", "2021-06-17 09:51:14.003838"], ["updated_at", "2021-06-17 09:51:14.003838"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Mr. Xiomara Ortiz Dare"], ["email", "reyes@moen.name"], ["created_at", "2021-06-17 09:51:14.008182"], ["updated_at", "2021-06-17 09:51:14.008182"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Eugena O'Keefe Grant CPA"], ["email", "jacques_stokes@klocko-robel.io"], ["created_at", "2021-06-17 09:51:14.012525"], ["updated_at", "2021-06-17 09:51:14.012525"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Rufus Towne Mraz"], ["email", "rheba_davis@kunze-gerhold.co"], ["created_at", "2021-06-17 09:51:14.016613"], ["updated_at", "2021-06-17 09:51:14.016613"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Earlie Connelly Buckridge I"], ["email", "ronald.roob@shanahan.name"], ["created_at", "2021-06-17 09:51:14.020981"], ["updated_at", "2021-06-17 09:51:14.020981"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Marx Ullrich Stracke"], ["email", "erick@wolff-gerlach.com"], ["created_at", "2021-06-17 09:51:14.025073"], ["updated_at", "2021-06-17 09:51:14.025073"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Lecia Rolfson Brakus"], ["email", "charles@yost-murazik.com"], ["created_at", "2021-06-17 09:51:14.029261"], ["updated_at", "2021-06-17 09:51:14.029261"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Lou Lindgren Yost"], ["email", "anika.harber@willms-mcdermott.name"], ["created_at", "2021-06-17 09:51:14.033259"], ["updated_at", "2021-06-17 09:51:14.033259"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Lida Denesik Mante"], ["email", "andres_erdman@kassulke-erdman.biz"], ["created_at", "2021-06-17 09:51:14.037354"], ["updated_at", "2021-06-17 09:51:14.037354"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Msgr. Leida Johnston Koepp"], ["email", "elvie_sipes@oconner-stroman.io"], ["created_at", "2021-06-17 09:51:14.041242"], ["updated_at", "2021-06-17 09:51:14.041242"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Cassey Murazik Prosacco"], ["email", "edgar_stokes@fadel.name"], ["created_at", "2021-06-17 09:51:14.045499"], ["updated_at", "2021-06-17 09:51:14.045499"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Rep. Georgiann Hilll Little"], ["email", "denice.lindgren@howell.name"], ["created_at", "2021-06-17 09:51:14.049848"], ["updated_at", "2021-06-17 09:51:14.049848"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Mr. Jeremiah Dicki McKenzie"], ["email", "liana@feest.net"], ["created_at", "2021-06-17 09:51:14.054137"], ["updated_at", "2021-06-17 09:51:14.054137"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Moshe Mosciski Kshlerin"], ["email", "nicolas.senger@homenick.io"], ["created_at", "2021-06-17 09:51:14.058278"], ["updated_at", "2021-06-17 09:51:14.058278"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Annetta McCullough Emmerich"], ["email", "kym_grady@herman.org"], ["created_at", "2021-06-17 09:51:14.062530"], ["updated_at", "2021-06-17 09:51:14.062530"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.6ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "magnamvoluptasrerummolestiasex"], ["content", "Quia rerum et. Et dolorem aspernatur. Ut dolor impedit.Necessitatibus sunt architecto. Magni recusandae minus. Perspiciatis quidem in.Accusamus quia sed. Ut fugiat pariatur. Sunt ducimus ut.Hic labore ducimus. Consequatur ad similique. Iste voluptatem consectetur.Architecto cupiditate non. Dolor eaque porro. Aut aut nobis."], ["user_id", 123], ["created_at", "2021-06-17 09:51:22.723626"], ["updated_at", "2021-06-17 09:51:22.723626"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "eaquisedpariaturitaque"], ["content", "Qui aspernatur exercitationem. Et et natus. Aliquid sed iure.Nisi voluptatibus quod. Odit dolore accusamus. Eum dignissimos nostrum.Odit est sed. Cupiditate ut vitae. Consequatur impedit iusto.Tempore velit doloribus. Adipisci quis reiciendis. Est numquam qui.Id expedita explicabo. Rerum deleniti mollitia. Et laudantium nostrum."], ["user_id", 112], ["created_at", "2021-06-17 09:51:22.733103"], ["updated_at", "2021-06-17 09:51:22.733103"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "exercitationemetmolestiaenemoofficiis"], ["content", "Rerum architecto accusantium. Quo quia quam. Est et eum.Quae sunt autem. Sit praesentium quae. Laborum nesciunt dolor.Optio ea eligendi. Sapiente ut possimus. Et voluptate esse.Ut et quasi. Cumque hic sunt. Aperiam cumque aut.Nihil nam laudantium. Molestiae similique sed. Laboriosam molestias dolores."], ["user_id", 87], ["created_at", "2021-06-17 09:51:22.741225"], ["updated_at", "2021-06-17 09:51:22.741225"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "quononautemvoluptasimpedit"], ["content", "Eos incidunt sequi. Accusamus sit est. Laboriosam eveniet exercitationem.In similique impedit. Sequi nisi rerum. Ut molestias aperiam.Maxime qui et. Repellat dicta minus. Doloribus vel quisquam.Et accusantium molestias. Voluptates sed qui. Impedit ab id.Occaecati enim molestias. Neque et iure. Deserunt vitae iste."], ["user_id", 80], ["created_at", "2021-06-17 09:51:22.749326"], ["updated_at", "2021-06-17 09:51:22.749326"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "explicaboetvelpariatureos"], ["content", "Debitis magnam eum. Quaerat et qui. Quia et iste.Quam aut id. Molestias voluptatibus quo. Quasi magnam quos.A dignissimos quam. Et aut quaerat. Quidem soluta repellat.Optio non omnis. Fugiat est id. Qui rerum tempore.Pariatur hic ea. Laudantium voluptates dolorum. Eaque et libero."], ["user_id", 123], ["created_at", "2021-06-17 09:51:22.757908"], ["updated_at", "2021-06-17 09:51:22.757908"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "quoexpeditadictautfuga"], ["content", "Eum in optio. Quo voluptatem rerum. Iste odio id.Velit saepe aspernatur. Maxime voluptates sed. Ea temporibus molestiae.Ipsum excepturi ut. Temporibus dignissimos illo. Ipsam tenetur rerum.Voluptatem fuga perspiciatis. Occaecati et harum. Sed adipisci accusantium.Blanditiis nesciunt illum. Eligendi et in. Cum dolores perferendis."], ["user_id", 97], ["created_at", "2021-06-17 09:51:22.765865"], ["updated_at", "2021-06-17 09:51:22.765865"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "doloribusiustorepellenduslaborumsit"], ["content", "Corrupti voluptatem blanditiis. Sunt quos adipisci. Corporis deleniti voluptatem.Est laudantium earum. Sed laborum voluptas. Laudantium vero error.Ut in eum. Harum magnam quidem. Necessitatibus provident aut.Praesentium sit molestiae. Aut provident repellendus. Molestias sed qui.Impedit architecto explicabo. Deserunt dolore quia. Magnam optio molestiae."], ["user_id", 107], ["created_at", "2021-06-17 09:51:22.773036"], ["updated_at", "2021-06-17 09:51:22.773036"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "possimusautquivoluptatemlaborum"], ["content", "Fuga facilis ut. Et labore suscipit. Molestiae saepe numquam.Quas accusamus rerum. At consequatur nulla. Non officia eos.Non odio maxime. Repellendus est officiis. Consequatur et quae.Omnis dolorum inventore. Nihil voluptatum placeat. Aliquam distinctio accusamus.Possimus non est. Eligendi tempora harum. Rerum delectus voluptatem."], ["user_id", 105], ["created_at", "2021-06-17 09:51:22.779750"], ["updated_at", "2021-06-17 09:51:22.779750"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "dolorumnumquamculpautsaepe"], ["content", "Nesciunt delectus est. Nesciunt animi tempore. Omnis distinctio corporis.Recusandae delectus a. Distinctio similique quam. Dolor porro facilis.Eum magnam dolorem. Illo quasi placeat. Omnis architecto deleniti.Animi ea et. Mollitia ut est. Neque accusamus possimus.Nihil magni perferendis. Et sunt dolor. Eos cupiditate tempore."], ["user_id", 121], ["created_at", "2021-06-17 09:51:22.786404"], ["updated_at", "2021-06-17 09:51:22.786404"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "quiaincidunteasolutainventore"], ["content", "Temporibus beatae culpa. Cum aut autem. Asperiores nam aperiam.Et nisi est. Ut explicabo omnis. Autem molestias omnis.Aut aperiam quae. Sed et repellat. Quidem qui officiis.Quidem ut id. Aliquam voluptates pariatur. Ex sunt harum.Voluptates quasi qui. Aliquid soluta laborum. Magnam eum ea."], ["user_id", 89], ["created_at", "2021-06-17 09:51:22.792964"], ["updated_at", "2021-06-17 09:51:22.792964"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "temporaaccusantiumnostrumetconsectetur"], ["content", "Fugiat numquam pariatur. Perspiciatis voluptatem enim. Tempore et repudiandae.Dolorem sint veniam. Minima ut enim. Voluptatem aut dolorum.Ipsam qui rem. Qui minus ut. Dolores accusamus officiis.Quis perspiciatis laborum. Officia quo temporibus. Expedita eligendi est.Sit modi aliquid. Impedit officiis occaecati. Necessitatibus aspernatur illum."], ["user_id", 101], ["created_at", "2021-06-17 09:51:22.799397"], ["updated_at", "2021-06-17 09:51:22.799397"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "etexpeditasedmaximevoluptates"], ["content", "Enim facilis neque. Vel et et. Dicta eaque eligendi.Aperiam blanditiis officiis. Officia ut repellendus. Temporibus error voluptatem.Incidunt amet dolor. Alias nesciunt amet. Quia ut assumenda.Accusantium quidem illo. Maiores minima nemo. Officiis necessitatibus odio.Nobis atque quas. Voluptas excepturi et. Quo rerum omnis."], ["user_id", 81], ["created_at", "2021-06-17 09:51:22.805781"], ["updated_at", "2021-06-17 09:51:22.805781"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "namreiciendisdeseruntquamnemo"], ["content", "Aut incidunt illum. Quisquam ab dignissimos. Quae dolor consequatur.Ut magni delectus. Dolore voluptates natus. Esse voluptas perferendis.Optio consequuntur non. Et molestias nostrum. Expedita eos voluptas.A cum aut. Non quia dicta. Animi consequuntur minima.Eum doloribus praesentium. Dolores sed maxime. Tenetur minima deserunt."], ["user_id", 123], ["created_at", "2021-06-17 09:51:22.811978"], ["updated_at", "2021-06-17 09:51:22.811978"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "facilisetnecessitatibusasperioresconsectetur"], ["content", "Molestias possimus aut. Officiis beatae iste. Minima eligendi laudantium.Est laudantium suscipit. Eligendi numquam aperiam. Laboriosam omnis possimus.Harum temporibus aut. Architecto et accusantium. Esse excepturi voluptatem.Facilis enim voluptatem. Nisi asperiores qui. Et quia earum.Sint non quia. Et minus totam. Tempore vero suscipit."], ["user_id", 109], ["created_at", "2021-06-17 09:51:22.818412"], ["updated_at", "2021-06-17 09:51:22.818412"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "iddolorenimdolorumut"], ["content", "Facere repudiandae id. Cupiditate id non. Minus numquam consequatur.Aut aut quia. Aspernatur quo nesciunt. Quaerat fugiat dolore.Ipsum aut sint. Assumenda nostrum ducimus. Consequatur laboriosam et.Nostrum voluptates distinctio. Officiis minus impedit. Ea sequi qui.Eaque similique saepe. Et cum labore. Nobis animi et."], ["user_id", 77], ["created_at", "2021-06-17 09:51:22.825735"], ["updated_at", "2021-06-17 09:51:22.825735"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "etnostrumanimidignissimosdoloribus"], ["content", "Doloribus aperiam et. Voluptatem autem vel. Sed error quo.Autem nemo aut. Perspiciatis quaerat unde. Laboriosam blanditiis tenetur.Quae non perspiciatis. Et dignissimos sunt. Dolores sapiente nam.Necessitatibus quam sit. Quas ad minus. Omnis quam incidunt.A sit eligendi. Quaerat et soluta. Et autem similique."], ["user_id", 123], ["created_at", "2021-06-17 09:51:22.832403"], ["updated_at", "2021-06-17 09:51:22.832403"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "dictainciduntvoluptateaqui"], ["content", "Dolores rerum voluptates. Quia nobis voluptatem. Aut reiciendis expedita.Dignissimos possimus vitae. Dolores totam eaque. Placeat dolor accusamus.In voluptatum non. Quia illum est. Voluptates necessitatibus atque.Eligendi eos voluptatum. Aut magni animi. Doloribus temporibus voluptas.Enim sequi illo. Est aliquid omnis. At tempore minus."], ["user_id", 125], ["created_at", "2021-06-17 09:51:22.838886"], ["updated_at", "2021-06-17 09:51:22.838886"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "utassumendainquaeratconsequuntur"], ["content", "Eum earum in. Fuga perferendis impedit. Rerum voluptatibus nisi.Dignissimos est quia. Sint omnis cum. Voluptatem ullam qui.Cum vel expedita. Nulla at in. Vero ullam et.Non ex fuga. Aut distinctio asperiores. Neque alias est.Consequatur doloremque consequatur. Dolorem sit magnam. Quos qui distinctio."], ["user_id", 113], ["created_at", "2021-06-17 09:51:22.846134"], ["updated_at", "2021-06-17 09:51:22.846134"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "facerefuganihilveroexplicabo"], ["content", "Non vel maxime. Quia delectus iusto. Sapiente omnis explicabo.Qui excepturi unde. Aliquam est soluta. Placeat laborum cupiditate.Vitae optio non. Suscipit quo voluptas. Et qui qui.Quis placeat molestiae. Rerum ut et. Corporis pariatur nemo.Doloremque et sint. Id cupiditate dolore. Itaque neque repellendus."], ["user_id", 77], ["created_at", "2021-06-17 09:51:22.853064"], ["updated_at", "2021-06-17 09:51:22.853064"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "excepturidoloremquenequeaccusantiumquia"], ["content", "Omnis autem animi. Nihil quas et. Molestiae accusamus minus.Libero in quod. Tenetur et accusantium. Corporis quaerat dolorem.Alias iste qui. Eligendi quam quidem. Illum distinctio eos.Perspiciatis maiores officia. Nisi eos eligendi. Repellat ea maiores.Est esse quis. Optio aut tempore. Ad et quidem."], ["user_id", 91], ["created_at", "2021-06-17 09:51:22.859979"], ["updated_at", "2021-06-17 09:51:22.859979"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "nonipsamveritatisconsecteturveniam"], ["content", "Explicabo veritatis labore. Occaecati quisquam distinctio. Delectus officia vitae.Ullam ratione quia. Asperiores voluptatibus dolorem. Quae ab maxime.Consectetur non praesentium. Eos possimus rerum. Est excepturi maiores.Aut omnis doloremque. Dolorem quaerat magni. Quia accusantium eum.Commodi ut mollitia. Perferendis et fuga. Harum quibusdam voluptatum."], ["user_id", 121], ["created_at", "2021-06-17 09:51:22.877613"], ["updated_at", "2021-06-17 09:51:22.877613"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (5.9ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "voluptasillovoluptatumnatusipsa"], ["content", "Ex sequi asperiores. Similique deleniti autem. Sed quia libero.Omnis cumque quae. Nemo numquam soluta. Laborum sapiente et.Praesentium earum aperiam. Et recusandae corporis. Itaque magnam assumenda.Quis dolores accusantium. Necessitatibus repudiandae praesentium. Sunt unde aut.Et cum sed. Ut enim illum. Doloribus distinctio quia."], ["user_id", 91], ["created_at", "2021-06-17 09:51:22.884019"], ["updated_at", "2021-06-17 09:51:22.884019"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "rationeeumtotamlaboriosamquidem"], ["content", "Sapiente porro quibusdam. Amet voluptatum nobis. Odit dolorem aut.Voluptatem dolorem ipsa. Non consequatur nihil. Reiciendis et vitae.Mollitia maiores sapiente. Aut pariatur omnis. Neque sunt in.Dolor aut minus. Velit nihil veniam. Aut velit rerum.Voluptate quidem neque. Dolorum dolores libero. Natus totam dolorum."], ["user_id", 90], ["created_at", "2021-06-17 09:51:22.897578"], ["updated_at", "2021-06-17 09:51:22.897578"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "rationequaeeteatenetur"], ["content", "Non eos nihil. Suscipit ipsam qui. Iusto blanditiis aliquid.Explicabo et sint. Omnis aut modi. Est mollitia vero.Odit ad rerum. Doloremque cupiditate nostrum. Eum repellendus et.Odio magni architecto. Aut officia voluptate. Dolores eaque inventore.Libero sunt laborum. Labore ab dolor. Inventore ratione et."], ["user_id", 111], ["created_at", "2021-06-17 09:51:22.906085"], ["updated_at", "2021-06-17 09:51:22.906085"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mPost Create (0.3ms)[0m  [1m[32mINSERT INTO "posts" ("title", "content", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "veritatisevenietnemoreiciendisest"], ["content", "Accusamus vel laboriosam. Iusto tenetur numquam. Doloremque in rerum.Optio eius et. Sunt dolorum qui. Rerum dolorem quibusdam.Quis corrupti sunt. Consectetur error voluptas. Ipsum quae enim.Eius et non. Quia beatae facilis. Ab dolor eius.Unde numquam et. Autem cumque repellendus. Quo et rem."], ["user_id", 121], ["created_at", "2021-06-17 09:51:22.914513"], ["updated_at", "2021-06-17 09:51:22.914513"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.4ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Jamie Hammes Kuhic"], ["email", "bertha.wiza@parker.org"], ["created_at", "2021-06-17 09:51:22.920257"], ["updated_at", "2021-06-17 09:51:22.920257"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Renato Reynolds Homenick"], ["email", "korey@lang.co"], ["created_at", "2021-06-17 09:51:22.925886"], ["updated_at", "2021-06-17 09:51:22.925886"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Nita Hilll Skiles"], ["email", "miguel_roob@abbott-krajcik.biz"], ["created_at", "2021-06-17 09:51:22.931321"], ["updated_at", "2021-06-17 09:51:22.931321"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Diamond Kling Mraz"], ["email", "marcelle.gerhold@daniel.net"], ["created_at", "2021-06-17 09:51:22.936466"], ["updated_at", "2021-06-17 09:51:22.936466"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Prof. Alvera Orn Kuphal"], ["email", "wendolyn.kovacek@hermiston.co"], ["created_at", "2021-06-17 09:51:22.941580"], ["updated_at", "2021-06-17 09:51:22.941580"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Enid Kuphal Hackett I"], ["email", "jae.okon@funk.biz"], ["created_at", "2021-06-17 09:51:22.946836"], ["updated_at", "2021-06-17 09:51:22.946836"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Tory Lueilwitz Howell DC"], ["email", "frankie_schultz@cormier.biz"], ["created_at", "2021-06-17 09:51:22.951919"], ["updated_at", "2021-06-17 09:51:22.951919"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Dale Harris Kovacek"], ["email", "alix_turcotte@bernhard.biz"], ["created_at", "2021-06-17 09:51:22.957018"], ["updated_at", "2021-06-17 09:51:22.957018"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Yael Cummerata Goldner"], ["email", "freddy.langosh@greenfelder.org"], ["created_at", "2021-06-17 09:51:22.962039"], ["updated_at", "2021-06-17 09:51:22.962039"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Trudy Kertzmann Cormier"], ["email", "cortez@schamberger.io"], ["created_at", "2021-06-17 09:51:22.966933"], ["updated_at", "2021-06-17 09:51:22.966933"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Brittany Prohaska Deckow"], ["email", "salina@thompson.biz"], ["created_at", "2021-06-17 09:51:22.971684"], ["updated_at", "2021-06-17 09:51:22.971684"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Elmer Hahn Kris"], ["email", "jose@schroeder.net"], ["created_at", "2021-06-17 09:51:22.976675"], ["updated_at", "2021-06-17 09:51:22.976675"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Natacha Kunde Kreiger"], ["email", "jong.schaefer@ledner.org"], ["created_at", "2021-06-17 09:51:22.981688"], ["updated_at", "2021-06-17 09:51:22.981688"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Long Lesch Boehm"], ["email", "alexandra_hayes@lang-streich.org"], ["created_at", "2021-06-17 09:51:22.986932"], ["updated_at", "2021-06-17 09:51:22.986932"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Adrian Langosh Lubowitz"], ["email", "zella_wilderman@wyman-cruickshank.org"], ["created_at", "2021-06-17 09:51:22.991829"], ["updated_at", "2021-06-17 09:51:22.991829"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Andres Macejkovic Reichert Esq."], ["email", "douglass.renner@balistreri.biz"], ["created_at", "2021-06-17 09:51:22.997145"], ["updated_at", "2021-06-17 09:51:22.997145"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Cornelius Ratke Kshlerin"], ["email", "carol@nitzsche.name"], ["created_at", "2021-06-17 09:51:23.001893"], ["updated_at", "2021-06-17 09:51:23.001893"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Pasquale Weissnat Collier"], ["email", "rhona@howell-cartwright.org"], ["created_at", "2021-06-17 09:51:23.005982"], ["updated_at", "2021-06-17 09:51:23.005982"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Milton Beatty Thompson"], ["email", "roseanna@gerlach.net"], ["created_at", "2021-06-17 09:51:23.010015"], ["updated_at", "2021-06-17 09:51:23.010015"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Bryant Erdman Bernhard I"], ["email", "jewel_bogan@kilback.biz"], ["created_at", "2021-06-17 09:51:23.014134"], ["updated_at", "2021-06-17 09:51:23.014134"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Lemuel Nader Conn LLD"], ["email", "dominic@reichel.com"], ["created_at", "2021-06-17 09:51:23.018116"], ["updated_at", "2021-06-17 09:51:23.018116"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Sueann Price Kerluke"], ["email", "rhoda@yundt-rogahn.co"], ["created_at", "2021-06-17 09:51:23.022092"], ["updated_at", "2021-06-17 09:51:23.022092"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Morgan Daugherty Waters LLD"], ["email", "rosette.wisozk@wunsch-bayer.com"], ["created_at", "2021-06-17 09:51:23.026113"], ["updated_at", "2021-06-17 09:51:23.026113"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Jordon Ankunding Schultz LLD"], ["email", "cordie_kovacek@wyman.co"], ["created_at", "2021-06-17 09:51:23.030360"], ["updated_at", "2021-06-17 09:51:23.030360"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Sammie Schoen Stoltenberg"], ["email", "alysha@price-treutel.co"], ["created_at", "2021-06-17 09:51:23.034334"], ["updated_at", "2021-06-17 09:51:23.034334"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/posts/2" for 127.0.0.1 at 2021-06-17 09:51:49 +0000
+Processing by PostsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" WHERE "posts"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/posts_controller.rb:62:in `set_post'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/show.html.erb within layouts/application
+  Rendered posts/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 3689)
+Completed 200 OK in 27ms (Views: 6.4ms | ActiveRecord: 10.8ms | Allocations: 7941)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2021-06-17 09:51:54 +0000
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.2ms | Allocations: 6596)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 10189)
+Completed 200 OK in 19ms (Views: 16.5ms | ActiveRecord: 1.2ms | Allocations: 10707)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2021-06-17 09:53:45 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (0.8ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY createt_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 4378)
+
+
+  [1m[36mPost Load (0.6ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY createt_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `page' for #<Post::ActiveRecord_Relation:0x00007fe351f857c8>):
+  
+app/controllers/posts_controller.rb:6:in `index'
+Started GET "/posts/" for 127.0.0.1 at 2021-06-17 09:55:08 +0000
+Processing by PostsController#index as HTML
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 8127)
+
+
+  [1m[36mCACHE Post Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `page' for #<Post::ActiveRecord_Relation:0x00007fe351297638>):
+  
+app/controllers/posts_controller.rb:6:in `index'
+Started GET "/posts?page=10" for 127.0.0.1 at 2021-06-17 09:56:24 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"10"}
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4398)
+
+
+  [1m[36mCACHE Post Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `page' for #<Post::ActiveRecord_Relation:0x00007fe3652fbed0>):
+  
+app/controllers/posts_controller.rb:6:in `index'
+Started GET "/posts?page=10" for 127.0.0.1 at 2021-06-17 09:56:34 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"10"}
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 4397)
+
+
+  [1m[36mCACHE Post Load (0.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" /* loading for inspect */ ORDER BY created_at DESC LIMIT $1[0m  [["LIMIT", 11]]
+  
+NoMethodError (undefined method `page' for #<Post::ActiveRecord_Relation:0x00007fe3528f85a8>):
+  
+app/controllers/posts_controller.rb:6:in `index'
+Started GET "/posts?page=10" for 127.0.0.1 at 2021-06-17 09:56:46 +0000
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"10"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 90]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 296.7ms | Allocations: 351529)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 308.9ms | Allocations: 357742)
+Completed 200 OK in 321ms (Views: 306.7ms | ActiveRecord: 4.6ms | Allocations: 361806)
+
+
+Started GET "/posts?page=9" for 127.0.0.1 at 2021-06-17 09:56:49 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"9"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 80]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 2842)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6432)
+Completed 200 OK in 13ms (Views: 9.0ms | ActiveRecord: 1.8ms | Allocations: 7039)
+
+
+Started GET "/posts?page=8" for 127.0.0.1 at 2021-06-17 09:56:49 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"8"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 70]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 3081)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.3ms | Allocations: 6669)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 2.0ms | Allocations: 7262)
+
+
+Started GET "/posts?page=7" for 127.0.0.1 at 2021-06-17 09:56:50 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"7"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 60]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 7.1ms | Allocations: 3350)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 6940)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 1.8ms | Allocations: 7544)
+
+
+Started GET "/posts?page=6" for 127.0.0.1 at 2021-06-17 09:56:51 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 50]]
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.0ms | Allocations: 5912)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.2ms | Allocations: 9502)
+Completed 200 OK in 20ms (Views: 14.3ms | ActiveRecord: 3.6ms | Allocations: 10105)
+
+
+Started GET "/posts?page=2" for 127.0.0.1 at 2021-06-17 09:56:53 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 10]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 12.7ms | Allocations: 6033)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 9628)
+Completed 200 OK in 21ms (Views: 17.0ms | ActiveRecord: 1.8ms | Allocations: 10232)
+
+
+Started GET "/posts?page=4" for 127.0.0.1 at 2021-06-17 09:56:57 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 30]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 5310)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 8898)
+Completed 200 OK in 15ms (Views: 11.0ms | ActiveRecord: 1.9ms | Allocations: 9492)
+
+
+Started GET "/posts?page=3" for 127.0.0.1 at 2021-06-17 09:56:58 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 20]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.4ms | Allocations: 5301)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 8889)
+Completed 200 OK in 16ms (Views: 12.4ms | ActiveRecord: 2.0ms | Allocations: 9482)
+
+
+Started GET "/posts?page=6" for 127.0.0.1 at 2021-06-17 09:56:59 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 50]]
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 3100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 6691)
+Completed 200 OK in 12ms (Views: 8.8ms | ActiveRecord: 1.0ms | Allocations: 7284)
+
+
+Started GET "/posts?page=5" for 127.0.0.1 at 2021-06-17 09:57:03 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 40]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.0ms | Allocations: 5302)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 8890)
+Completed 200 OK in 16ms (Views: 11.7ms | ActiveRecord: 2.0ms | Allocations: 9483)
+
+
+Started GET "/posts?page=4" for 127.0.0.1 at 2021-06-17 09:57:05 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 30]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5303)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 8891)
+Completed 200 OK in 15ms (Views: 11.4ms | ActiveRecord: 2.1ms | Allocations: 9484)
+
+
+Started GET "/posts?page=3" for 127.0.0.1 at 2021-06-17 09:57:06 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 20]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5301)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 8889)
+Completed 200 OK in 15ms (Views: 11.7ms | ActiveRecord: 2.0ms | Allocations: 9482)
+
+
+Started GET "/posts?page=2" for 127.0.0.1 at 2021-06-17 09:57:07 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 10]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.3ms | Allocations: 5307)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 8895)
+Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 2.0ms | Allocations: 9488)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-06-17 09:57:08 +0000
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.3ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 4758)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 8346)
+Completed 200 OK in 20ms (Views: 14.7ms | ActiveRecord: 2.8ms | Allocations: 8941)
+
+
+Started GET "/posts?page=6" for 127.0.0.1 at 2021-06-17 09:57:11 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.9ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 50]]
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 3100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 6711)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.9ms | Allocations: 7304)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-06-17 09:57:14 +0000
+Processing by PostsController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 4758)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 8346)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 1.9ms | Allocations: 8941)
+
+
+Started GET "/posts?page=2" for 127.0.0.1 at 2021-06-17 09:57:16 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 10]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 10.7ms | Allocations: 5307)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 8918)
+Completed 200 OK in 17ms (Views: 13.3ms | ActiveRecord: 2.2ms | Allocations: 9511)
+
+
+Started GET "/posts?page=3" for 127.0.0.1 at 2021-06-17 09:57:25 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 20]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 5324)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 8912)
+Completed 200 OK in 19ms (Views: 14.5ms | ActiveRecord: 2.7ms | Allocations: 9505)
+
+
+Started GET "/posts?page=4" for 127.0.0.1 at 2021-06-17 09:57:26 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 30]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 8.9ms | Allocations: 5304)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 8902)
+Completed 200 OK in 16ms (Views: 12.0ms | ActiveRecord: 2.0ms | Allocations: 9495)
+
+
+Started GET "/posts?page=5" for 127.0.0.1 at 2021-06-17 09:57:27 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.1ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 40]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 5302)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 8890)
+Completed 200 OK in 20ms (Views: 16.2ms | ActiveRecord: 2.1ms | Allocations: 9483)
+
+
+Started GET "/posts?page=6" for 127.0.0.1 at 2021-06-17 09:57:28 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 50]]
+  ↳ app/views/posts/index.html.erb:16
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3100)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 6688)
+Completed 200 OK in 14ms (Views: 11.3ms | ActiveRecord: 1.2ms | Allocations: 7281)
+
+
+Started GET "/posts?page=5" for 127.0.0.1 at 2021-06-17 09:57:31 +0000
+Processing by PostsController#index as HTML
+  Parameters: {"page"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.2ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 40]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 9.9ms | Allocations: 5311)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 8913)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 2.1ms | Allocations: 9506)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6125735671847886150)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexOnCreatedAtToPosts (20210617095850)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE INDEX "index_post_on_created_at" ON "post" ("created_at")[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6125735671847886150)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6125735671847886150)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexOnCreatedAtToPosts (20210617095850)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE INDEX "index_post_on_created_at" ON "post" ("created_at")[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6125735671847886150)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6125735671847886150)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddIndexOnCreatedAtToPosts (20210617095850)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE INDEX "index_posts_on_created_at" ON "posts" ("created_at")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210617095850"]]
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6125735671847886150)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6125735671847886150)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20210617114126)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "users" ADD "email" character varying DEFAULT '' NOT NULL[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(6125735671847886150)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(6125735671847886150)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddDeviseToUsers (20210617114126)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "users" ADD "encrypted_password" character varying DEFAULT '' NOT NULL[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_token" character varying[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "reset_password_sent_at" timestamp[0m
+  [1m[35m (0.2ms)[0m  [1m[35mALTER TABLE "users" ADD "remember_created_at" timestamp[0m
+  [1m[35m (1.9ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210617114126"]]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(6125735671847886150)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2021-06-17 11:42:39 +0000
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+AbstractController::ActionNotFound (The action 'home' could not be found for StaticPagesController
+Did you mean?  current_time
+               privacy):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-06-17 11:42:51 +0000
+  
+AbstractController::ActionNotFound (The action 'home' could not be found for StaticPagesController
+Did you mean?  current_time
+               privacy):
+  
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:160:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-06-17 11:43:40 +0000
+Processing by StaticPagesController#home as HTML
+Completed 406 Not Acceptable in 9ms (ActiveRecord: 0.0ms | Allocations: 3569)
+
+
+  
+ActionController::MissingExactTemplate (StaticPagesController#home is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.3.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.3.2) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-06-17 11:44:03 +0000
+Processing by StaticPagesController#home as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 681)
+
+
+  
+ActionController::MissingExactTemplate (StaticPagesController#home is missing a template for request formats: text/html):
+  
+actionpack (6.1.3.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (6.1.3.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:228:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:117:in `block in run_callbacks'
+actiontext (6.1.3.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (6.1.3.2) lib/action_text/engine.rb:55:in `block (4 levels) in <class:Engine>'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:126:in `instance_exec'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:126:in `block in run_callbacks'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:137:in `run_callbacks'
+actionpack (6.1.3.2) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `block in instrument'
+activesupport (6.1.3.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.1.3.2) lib/active_support/notifications.rb:203:in `instrument'
+actionpack (6.1.3.2) lib/action_controller/metal/instrumentation.rb:33:in `process_action'
+actionpack (6.1.3.2) lib/action_controller/metal/params_wrapper.rb:249:in `process_action'
+activerecord (6.1.3.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.1.3.2) lib/abstract_controller/base.rb:165:in `process'
+actionview (6.1.3.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:190:in `dispatch'
+actionpack (6.1.3.2) lib/action_controller/metal.rb:254:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:50:in `dispatch'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.1.3.2) lib/action_dispatch/routing/route_set.rb:842:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/permissions_policy.rb:22:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/cookies.rb:689:in `call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:601:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+rack-mini-profiler (2.3.2) lib/mini_profiler/profiler.rb:384:in `call'
+webpacker (5.4.0) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.0) lib/rack/proxy.rb:63:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (5.3.2) lib/puma/configuration.rb:249:in `call'
+puma (5.3.2) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.3.2) lib/puma/thread_pool.rb:338:in `with_force_shutdown'
+puma (5.3.2) lib/puma/request.rb:76:in `handle_request'
+puma (5.3.2) lib/puma/server.rb:438:in `process_client'
+puma (5.3.2) lib/puma/thread_pool.rb:145:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2021-06-17 11:45:08 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 102)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 6765)
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 8097)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2021-06-17 11:45:10 +0000
+Processing by Devise::SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 614)
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 273.5ms | Allocations: 349807)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 278.2ms | Allocations: 353490)
+Completed 200 OK in 297ms (Views: 280.8ms | ActiveRecord: 5.5ms | Allocations: 361340)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2021-06-17 11:45:20 +0000
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"s@s.pl", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (1.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["email", "s@s.pl"], ["LIMIT", 1]]
+Completed 401 Unauthorized in 10ms (ActiveRecord: 2.8ms | Allocations: 2432)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"s@s.pl", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering layout layouts/application.html.erb
+  Rendering /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 151)
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1006)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 4751)
+Completed 200 OK in 275ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 6294)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2021-06-17 11:46:07 +0000
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_error_messages.html.erb (Duration: 0.6ms | Allocations: 222)
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 142)
+  Rendered /var/lib/gems/2.7.0/gems/devise-4.8.0/app/views/devise/registrations/new.html.erb within layouts/application (Duration: 4.4ms | Allocations: 1870)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 5602)
+Completed 200 OK in 12ms (Views: 10.9ms | ActiveRecord: 0.0ms | Allocations: 6957)
+
+
+Started POST "/users" for 127.0.0.1 at 2021-06-17 11:46:32 +0000
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "user"=>{"email"=>"ex@ex.pl", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "ex@ex.pl"], ["LIMIT", 1]]
+  [1m[36mUser Create (1.1ms)[0m  [1m[32mINSERT INTO "users" ("email", "created_at", "updated_at", "encrypted_password") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["email", "ex@ex.pl"], ["created_at", "2021-06-17 11:46:33.249952"], ["updated_at", "2021-06-17 11:46:33.249952"], ["encrypted_password", "$2a$12$.A9fiCDzBwldsmxM0baph.64SWV7jPOdaEUe22JuZiTX7QAUulqBC"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://127.0.0.1:3000/
+Completed 302 Found in 298ms (ActiveRecord: 4.2ms | Allocations: 7365)
+
+
+Started GET "/" for 127.0.0.1 at 2021-06-17 11:46:33 +0000
+Processing by StaticPagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 35)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 151], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:23
+  Rendered layout layouts/application.html.erb (Duration: 9.0ms | Allocations: 4800)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 1.0ms | Allocations: 5194)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-06-17 11:46:40 +0000
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 151], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `check_authenticated'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 25.9ms | Allocations: 11090)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.2ms | Allocations: 14701)
+Completed 200 OK in 39ms (Views: 25.7ms | ActiveRecord: 8.0ms | Allocations: 17568)
+
+
+Started GET "/privacy" for 127.0.0.1 at 2021-06-17 11:46:45 +0000
+Processing by StaticPagesController#privacy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/privacy.html.erb within layouts/application
+  Rendered static_pages/privacy.html.erb within layouts/application (Duration: 3.2ms | Allocations: 4992)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 151], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:23
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 9710)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 1.2ms | Allocations: 10215)
+
+
+Started GET "/aktualny_czas" for 127.0.0.1 at 2021-06-17 11:46:47 +0000
+Processing by StaticPagesController#current_time as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering static_pages/current_time.html.erb within layouts/application
+  Rendered static_pages/current_time.html.erb within layouts/application (Duration: 0.5ms | Allocations: 184)
+[Webpacker] Everything's up-to-date. Nothing to do
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 151], ["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:23
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4915)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 1.0ms | Allocations: 5429)
+
+
+Started GET "/posts" for 127.0.0.1 at 2021-06-17 11:46:50 +0000
+Processing by PostsController#index as HTML
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 ORDER BY "users"."id" ASC LIMIT $2[0m  [["id", 151], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:6:in `check_authenticated'
+  Rendering layout layouts/application.html.erb
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.5ms)[0m  [1m[34mSELECT "posts".* FROM "posts" ORDER BY created_at DESC LIMIT $1 OFFSET $2[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/posts/index.html.erb:16
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "posts"[0m
+  ↳ app/views/posts/index.html.erb:31
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 4873)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 8524)
+Completed 200 OK in 25ms (Views: 17.0ms | ActiveRecord: 4.1ms | Allocations: 9982)
+
+
