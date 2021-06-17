@@ -1,4 +1,5 @@
 class Post < ApplicationRecord
+    belongs_to :user
     def content_snapshot
         content.split('.').first.strip
     end
